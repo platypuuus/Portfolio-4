@@ -1,0 +1,67 @@
+body{
+    background-color: #F8F3ED;
+}
+.bg-light
+{
+    background-color: #F8F3ED !important;
+}
+.btn-primary {
+    background-color: #9C7E69!important;
+    border-color: #9C7E69!important;
+
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
+    color: #9C7E69!important;
+    background-color: #9C7E69!important;
+    border-color: #9C7E69!important;
+}
+a{
+   <!-- color :#9C7E69!important;-->
+}
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+    background: rgba(156, 126, 105, .9)!important;
+}
+.modal-content
+{
+    background-color: #F8F3ED!important;
+
+}
+#mainNav .navbar-brand {
+    color: #9C7E69!important;
+}
+#portfolio .portfolio-item .portfolio-caption {
+    background-color: #9C7E69!important;
+
+}
+h4, h2{
+    color: white;
+}
+.text-muted {
+    color: #F8F3ED!important;
+}
+.sup{
+    color:#9C7E69!important;
+}
+#services
+{
+    background-color: #E8D5C3!important;
+
+}
+@media (min-width: 1200px){
+    .timeline > li.timeline-inverted > .timeline-panel {
+
+        padding: 0 20px 20px 20px!important;
+    }}
+@media (min-width: 1200px){
+    .timeline > li .timeline-panel{
+        padding: 0 20px 20px 20px!important;
+    }}
+
+.timeline:before {
+    background-color :#9C7E69!important;
+}
+.timeline > li .timeline-image{
+    border: 7px solid #9C7E69 !important;
+    background-color: #9C7E69!important;
+
+}
