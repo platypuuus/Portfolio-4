@@ -27,14 +27,16 @@ a{
 
 }
 #mainNav .navbar-brand {
-    color: #9C7E69!important;
+    text-shadow: black 0.1em 0.1em 0.2em;
+
+    color: #ffffff!important;
 }
 #portfolio .portfolio-item .portfolio-caption {
     background-color: #9C7E69!important;
 
 }
 h4, h2{
-    color: white;
+    color: #3A2E29;
 }
 .text-muted {
     color: #F8F3ED!important;
@@ -63,5 +65,72 @@ h4, h2{
 .timeline > li .timeline-image{
     border: 7px solid #9C7E69 !important;
     background-color: #9C7E69!important;
+
+}
+.Just
+{
+    text-align: justify;
+}
+
+.ProTitle
+{
+    color: #9C7E69!important;
+}
+
+.text-primary {
+    color: #9C7E69 !important;
+}
+::selection {
+    color: #fff!important;
+    background: #3A2E29 !important;
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+    background-color: #9C7E69 !important;
+    border-color: #9C7E69 !important;
+    color : #3a2e29 !important;
+}
+
+#mainNav .navbar-toggler {
+    background-color: #9C7E69!important;
+}
+a:hover a:focus a:active{
+    color : white!important;
+}
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+    color :white!important;
+    text-shadow: 0 0 0.2em #ffffff, 0 0 0.2em #ffffff,
+    0 0 0.2em #ffffff
+}
+.intro-text
+{
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.intro-text a
+{
+    text-shadow: black 0em 0em 0em;
+    box-shadow:  black 0.1em 0.1em 0.2em;
+}
+.navbar-brand .js-scroll-trigger
+{
+    text-shadow: black 0.1em 0.1em 0.2em
+
+}
+@media (min-width: 768px){
+section {
+    padding: 50px 0!important;
+}}
+
+.SubServ{
+    color: #9C7E69;
+}
+.CheckCircle
+{
+    color: #3a2e29;
+
+}
+.leCercle{
+    padding: 5px;
 
 }

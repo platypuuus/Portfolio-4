@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Agency - Start Bootstrap Theme</title>
+    <title>Portfolio - Clément Baille</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -32,7 +32,7 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Baille Clément</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
                 data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -42,10 +42,10 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav text-uppercase ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#services">Compétences</a>
+                    <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+                    <a class="nav-link js-scroll-trigger" href="#services">Compétences</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#about">Parcours</a>
@@ -62,9 +62,9 @@
 <header class="masthead">
     <div class="container">
         <div class="intro-text">
-            <div class="intro-lead-in">Welcome To Our Studio!</div>
-            <div class="intro-heading text-uppercase">It's Nice To Meet You</div>
-            <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
+            <div class="intro-lead-in">Bienvenue sur mon portefolio!</div>
+            <div class="intro-heading text-uppercase">C'est une joie de vous rencontrer</div>
+            <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#portfolio">Mes Projets</a>
         </div>
     </div>
 </header>
@@ -100,27 +100,24 @@
               <i class="fas fa-circle fa-stack-2x text-primary"></i>
               <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
             </span>
-                <h4 class="service-heading">E-Commerce</h4>
-                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam
-                    architecto quo inventore harum ex magni, dicta impedit.</p>
+                <h4 class="service-heading">Developpement</h4>
+                <p class="SubServ">C#<br>HTML/CSS<br>PHP<br>JS</p>
             </div>
             <div class="col-md-4">
             <span class="fa-stack fa-4x">
               <i class="fas fa-circle fa-stack-2x text-primary"></i>
               <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
             </span>
-                <h4 class="service-heading">Responsive Design</h4>
-                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam
-                    architecto quo inventore harum ex magni, dicta impedit.</p>
+                <h4 class="service-heading">Dessin</h4>
+                <p class="SubServ"><i class="fas fa-circle leCercle CheckCircle"></i><i class="fas fa-circle leCercle CheckCircle"></i><i class="fas fa-circle leCercle "></i>Digital Painting<br>Dessin traditionnel<br>Aquarelle</p>
             </div>
             <div class="col-md-4">
             <span class="fa-stack fa-4x">
               <i class="fas fa-circle fa-stack-2x text-primary"></i>
               <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
             </span>
-                <h4 class="service-heading">Web Security</h4>
-                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam
-                    architecto quo inventore harum ex magni, dicta impedit.</p>
+                <h4 class="service-heading">Game Design</h4>
+                <p class="SubServ">RGD<br>GDD<br>Methode Agiles<br>Taxonimie de Bartel<br>Schell's Lens</p>
             </div>
         </div>
     </div>
@@ -178,7 +175,7 @@
                                 <h4 class="subheading">Les Chemins d'Alexandrie</h4>
                             </div>
                             <div class="timeline-body">
-                                <p class="">Developpement du premier prototype d’un site web pour l’entreprise en cours de création, les chemins d’alexandrie. <br>Developpement d’un site vitrine presentant le projet</p>
+                                <p class="Just">Developpement du premier prototype d’un site web pour l’entreprise en cours de création, les chemins d’alexandrie. <br>Developpement d’un site vitrine presentant le projet</p>
                             </div>
                         </div>
                     </li>
@@ -192,7 +189,7 @@
                                 <h4 class="subheading">Eco-Castor</h4>
                             </div>
                             <div class="timeline-body">
-                                <p class="">Création d’un site présentant l’activité de conseil en écologie et en économie d’un auto-entrepreneu</p>
+                                <p class="Just">Création d’un site présentant l’activité de conseil en écologie et en économie d’un auto-entrepreneur.</p>
                             </div>
                         </div>
                     </li>
@@ -343,8 +340,8 @@
 
             for (var i = 0; i < fesse.length; i++) {
 
-                document.getElementById("wrap").innerHTML += '<div class="col-md-4 col-sm-6 portfolio-item"> <a class="portfolio-link" data-toggle="modal" href="#portfolioModal' + i + '"> <div class="portfolio-hover"> <div class="portfolio-hover-content"> <i class="fas fa-plus fa-3x"></i> </div> </div> <img class="img-fluid" src="img/portfolio/' + fesse[i].NomVignette + '" alt=""> </a> <div class="portfolio-caption"> <h4>' + fesse[i].Nom + '</h4> <p class="text-muted">' + fesse[i].Type + '</p> </div> </div>';
-                document.getElementById("lesModals").innerHTML += '<div class="portfolio-modal modal fade" id="portfolioModal' + i + '" tabindex="-1" role="dialog" aria-hidden="true"> <div class="modal-dialog"> <div class="modal-content"> <div class="close-modal" data-dismiss="modal"> <div class="lr"> <div class="rl"></div> </div> </div> <div class="container"> <div class="row"> <div class="col-lg-8 mx-auto"> <div class="modal-body"> <h2 class="text-uppercase">' + fesse[i].Nom + '</h2> <p class="item-intro ">' + fesse[i].Type + '</p> <div id="leSlider'+i+'"></div> <p>' + fesse[i].Description + '</p> <ul class="list-inline"> <li>' + fesse[i].Date + ' </ul> <button class="btn btn-primary" data-dismiss="modal" type="button"> <i class="fas fa-times"></i> Close Project </button> </div> </div> </div> </div> </div> </div> </div> '
+                document.getElementById("wrap").innerHTML += '<div class="col-md-4 col-sm-6 portfolio-item"> <a class="portfolio-link" data-toggle="modal" href="#portfolioModal' + i + '"> <div class="portfolio-hover"> <div class="portfolio-hover-content"> <i class="fas fa-plus fa-3x"></i> </div> </div> <img class="img-fluid" src="img/portfolio/' + fesse[i].NomImage + 'V.png" alt=""> </a> <div class="portfolio-caption"> <h4>' + fesse[i].Nom + '</h4> <p class="text-muted">' + fesse[i].Type + '</p> </div> </div>';
+                document.getElementById("lesModals").innerHTML += '<div class="portfolio-modal modal fade" id="portfolioModal' + i + '" tabindex="-1" role="dialog" aria-hidden="true"> <div class="modal-dialog"> <div class="modal-content"> <div class="close-modal" data-dismiss="modal"> <div class="lr"> <div class="rl"></div> </div> </div> <div class="container"> <div class="row"> <div class="col-lg-10 mx-auto"> <div class="modal-body"> <h2 class="ProTitle text-uppercase">' + fesse[i].Nom + '</h2> <p class="item-intro ">' + fesse[i].Type + '</p> <div id="leSlider'+i+'"></div> <p>' + fesse[i].Description + '</p> <ul class="list-inline"> <li>' + fesse[i].Date + ' </ul> <button class="btn btn-primary" data-dismiss="modal" type="button"> <i class="fas fa-times"></i> Close Project </button> </div> </div> </div> </div> </div> </div> </div> '
                 document.getElementById("leSlider"+i).innerHTML += '<div id="carouselExampleControls" class="carousel slide" data-ride="carousel"> <div class="carousel-inner" id="ImgSlider'+i+'"> </div> <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>';
                 for (var x = 0; x < fesse[i].NombreImage; x++) {
                     var actif ='';
@@ -357,7 +354,7 @@
                         actif = '';
 
                     }
-                    document.getElementById("ImgSlider"+i).innerHTML +='<div class="carousel-item'+actif+'"> <img class="d-block w-100" src="img/portfolio/'+fesse[i].Nom+x+'" alt="Second slide"> </div>';
+                    document.getElementById("ImgSlider"+i).innerHTML +='<div class="carousel-item'+actif+'"> <img class="d-block w-100" src="img/portfolio/'+fesse[i].NomImage+x+'.png" alt="Second slide"> </div>';
                 }
             }
 

@@ -21,7 +21,7 @@ a:hover {
 }
 
 .text-primary {
-    color: #fed136 !important
+    color: #fed136 ;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -70,14 +70,12 @@ section h3.section-subheading {
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-    background-color: #fec810 !important;
-    border-color: #fec810 !important;
     color: #fff
 }
 
 .btn-primary:active, .btn-primary:focus {
     -webkit-box-shadow: 0 0 0 .2rem rgba(254, 209, 55, .5) !important;
-    box-shadow: 0 0 0 .2rem rgba(254, 209, 55, .5) !important
+    box-shadow: 0 0 0 .2rem rgba(156,126,105, .5) !important
 }
 
 ::-moz-selection {
